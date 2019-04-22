@@ -13,7 +13,7 @@ cd $HOME
 git clone https://github.com/IntelRealSense/librealsense.git
 cd librealsense
 # Checkout version 1.12.1 of librealsense, last tested version
-git checkout v1.12.1
+# git checkout v1.12.1
 # Patch the uvcvideo internal module fix
 patch -p1 -i $INSTALL_DIR/patches/uvc-v4l2.patch
 # Install Qt libraries
